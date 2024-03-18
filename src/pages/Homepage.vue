@@ -1,7 +1,10 @@
 <template>
     <DefaultLayout>
         <HeroApp />
-        <h1>Homepage</h1>
+        <div class="homepage container">
+            <h1>Homepage</h1>
+        </div>
+        
     </DefaultLayout>
 </template>
 <script>
@@ -29,5 +32,6 @@ export default {
     }
 }
 </script>
-<style>
+<style lang="scss" scoped>
+@use "../styles/partials/_homepage.scss"
 </style>
