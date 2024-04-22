@@ -61,5 +61,5 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-
+@use "../styles/partials/_homepage.scss"
 </style>

@@ -1,10 +1,15 @@
 <template>
-    <HeaderApp :items="store" @currentPageId="setId"/>
+    <header>
+        <HeaderApp :items="store" @currentPageId="setId"/>
+    </header>
+    
     <main>
         <slot></slot>
     </main>
-    <FooterApp />
-
+    <footer>
+        <FooterApp />
+    </footer>
+    
 </template>
 <script>
 import HeaderApp from '../components/HeaderApp.vue';

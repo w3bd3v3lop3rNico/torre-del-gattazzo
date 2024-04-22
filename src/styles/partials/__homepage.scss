@@ -1,0 +1,18 @@
+@import './_colorsPalette';
+.homepage {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: $light;
+    background-image: url("/imgs/iconic_imgs/giradischi.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100% !important;
+    h1 {
+        background-color: $faded-dark;
+        padding: 50px;
+        border-radius: 20px;
+    }
+}
