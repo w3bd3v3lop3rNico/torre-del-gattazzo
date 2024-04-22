@@ -18,7 +18,7 @@ export default {
     },
     methods: {
         currentPageId() {
-            this.store.pageId = 4;
+            this.store.pageId = 3;
         }
     },
     mounted() {

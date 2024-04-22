@@ -1,17 +1,48 @@
 <template>
     <DefaultLayout>
-        <HeroApp />
-        <h1>Homepage</h1>
+        <div >
+            <ul>
+                <li class="carousel-img">
+                    <img src="/imgs/logos/logo-gattazzo-laser.png" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+            </ul>
+
+        </div>
     </DefaultLayout>
 </template>
 <script>
 import DefaultLayout from '../layouts/DefaultLayout.vue';
-import HeroApp from '../components/HeroApp.vue';
 import { store } from '../store';
 export default {
     components: {
         DefaultLayout,
-        HeroApp,
     },
     data() {
         return {
@@ -25,9 +56,10 @@ export default {
     },
     mounted() {
         this.currentPageId(),
-        console.log(store.pageId)
+            console.log(store.pageId)
     }
 }
 </script>
-<style>
+<style lang="scss" scoped>
+
 </style>

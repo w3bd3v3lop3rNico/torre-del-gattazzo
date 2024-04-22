@@ -12,10 +12,6 @@ export const store = reactive({
             text: 'Storia',
         },
         {
-            name: 'products',
-            text: 'Prodotti',
-        },
-        {
             name: 'events',
             text: 'Eventi',
         },
